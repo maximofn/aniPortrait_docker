@@ -1,0 +1,5 @@
+version: "3.8"
+
+services:
+  ani_portrait:
+    entrypoint: ["bash", "-c", "python -m scripts.app"]

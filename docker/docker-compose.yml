@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  ani_portrait:
+    container_name: ani_portrait
+    image: maximofn/ani_portrait:1.0.1
+    build: .
+    runtime: nvidia
+    network_mode: "host"
+    # volumes:
+    #   - ./tts:/root/.local/share/tts
+    tty: true
+    stdin_open: true
