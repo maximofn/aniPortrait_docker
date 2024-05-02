@@ -3,7 +3,7 @@ version: "3.8"
 services:
   ani_portrait:
     container_name: ani_portrait
-    image: maximofn/ani_portrait:1.0.1
+    image: maximofn/ani_portrait:1.0.2
     build: .
     runtime: nvidia
     network_mode: "host"
